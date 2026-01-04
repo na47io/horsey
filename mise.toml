@@ -1,0 +1,37 @@
+[tools]
+python = "3.12"
+uv = "latest"
+
+[tasks.setup]
+description = "Install all dependencies including stockfish"
+run = """
+#!/bin/bash
+uv sync
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  if ! command -v stockfish &> /dev/null; then
+    echo "Installing stockfish via brew..."
+    brew install stockfish
+  else
+    echo "stockfish already installed"
+  fi
+else
+  if ! command -v stockfish &> /dev/null; then
+    echo "Please install stockfish manually: apt install stockfish"
+    exit 1
+  fi
+fi
+"""
+
+[tasks.analyze]
+description = "Analyze opening repertoire for weaknesses using Stockfish"
+depends = ["setup"]
+run = "uv run python analyze.py"
+
+[tasks.serve]
+description = "Start FastAPI server with hot reload"
+run = "uv run uvicorn app:app --reload --port 8000"
+
+[tasks.scrape-studies]
+description = "Download Lichess studies for your openings (for RAG)"
+depends = ["setup"]
+run = "uv run python scrape_studies.py"

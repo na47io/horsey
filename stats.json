@@ -1,0 +1,1222 @@
+{
+  "openings": {
+    "Starting Position": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0,
+      "avg_mobility": 20,
+      "avg_king_safety": 3,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.07,
+      "top_weaknesses": []
+    },
+    "Queen's Pawn Game: Accelerated London System": {
+      "total_positions": 28,
+      "weakness_count": 7,
+      "weakness_rate": 25.0,
+      "mistake_types": {
+        "hanging_piece": 1,
+        "positional": 2,
+        "development": 3,
+        "tactical": 1
+      },
+      "avg_development": 1,
+      "avg_center_control": 4.11,
+      "avg_mobility": 36.68,
+      "avg_king_safety": 1.18,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 92.9,
+      "avg_eval_loss": 0.49,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "d5",
+            "Bf4",
+            "Nc6",
+            "e3",
+            "Bf5",
+            "c4",
+            "e6"
+          ],
+          "played": "Qb3",
+          "best": "Nc3",
+          "eval_loss": 2.0,
+          "type": "positional"
+        },
+        {
+          "line": [
+            "d4",
+            "d5",
+            "Bf4",
+            "Nc6",
+            "e3",
+            "Nf6"
+          ],
+          "played": "c3",
+          "best": "Nf3",
+          "eval_loss": 2.0,
+          "type": "development"
+        },
+        {
+          "line": [
+            "d4",
+            "d5",
+            "Bf4",
+            "Nc6",
+            "e3",
+            "f6"
+          ],
+          "played": "c3",
+          "best": "Bd3",
+          "eval_loss": 2.0,
+          "type": "development"
+        }
+      ]
+    },
+    "Queen's Pawn Game": {
+      "total_positions": 7,
+      "weakness_count": 1,
+      "weakness_rate": 14.3,
+      "mistake_types": {
+        "positional": 1
+      },
+      "avg_development": 0.43,
+      "avg_center_control": 3.43,
+      "avg_mobility": 29.29,
+      "avg_king_safety": 1.57,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.08,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "c6"
+          ],
+          "played": "Bf4",
+          "best": "e4",
+          "eval_loss": 2.0,
+          "type": "positional"
+        }
+      ]
+    },
+    "Horwitz Defense": {
+      "total_positions": 7,
+      "weakness_count": 1,
+      "weakness_rate": 14.3,
+      "mistake_types": {
+        "positional": 1
+      },
+      "avg_development": 0.86,
+      "avg_center_control": 4,
+      "avg_mobility": 31.43,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.34,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "e6"
+          ],
+          "played": "Bf4",
+          "best": "e4",
+          "eval_loss": 2.0,
+          "type": "positional"
+        }
+      ]
+    },
+    "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1,
+      "avg_center_control": 4,
+      "avg_mobility": 33,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.02,
+      "top_weaknesses": []
+    },
+    "Englund Gambit": {
+      "total_positions": 8,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0.62,
+      "avg_center_control": 2.5,
+      "avg_mobility": 31.25,
+      "avg_king_safety": 0.75,
+      "doubled_pawn_rate": 25.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 12.5,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": -0.69,
+      "top_weaknesses": []
+    },
+    "Englund Gambit: Main Line": {
+      "total_positions": 13,
+      "weakness_count": 3,
+      "weakness_rate": 23.1,
+      "mistake_types": {
+        "hanging_piece": 1,
+        "pawn_structure": 1,
+        "positional": 1
+      },
+      "avg_development": 2.23,
+      "avg_center_control": 3.92,
+      "avg_mobility": 27.23,
+      "avg_king_safety": 1.08,
+      "doubled_pawn_rate": 53.8,
+      "isolated_pawn_rate": 38.5,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 46.2,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.27,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "e5",
+            "dxe5",
+            "Nc6",
+            "Nf3",
+            "Qe7",
+            "Bf4",
+            "Qb4+",
+            "Bd2",
+            "Qxb2",
+            "Nc3",
+            "Nb4"
+          ],
+          "played": "Rb1",
+          "best": "Nd4",
+          "eval_loss": 2.0,
+          "type": "hanging_piece"
+        },
+        {
+          "line": [
+            "d4",
+            "e5",
+            "dxe5",
+            "Nc6",
+            "Nf3",
+            "Qe7",
+            "Bf4",
+            "Qb4+",
+            "Bd2",
+            "Qxb2",
+            "Nc3",
+            "Bb4",
+            "Rb1",
+            "Qa3"
+          ],
+          "played": "Nb5",
+          "best": "Nd5",
+          "eval_loss": 0.71,
+          "type": "pawn_structure"
+        },
+        {
+          "line": [
+            "d4",
+            "e5",
+            "dxe5",
+            "Nc6",
+            "Nf3",
+            "Qe7",
+            "Bg5"
+          ],
+          "played": "Qb4+",
+          "best": "Qe6",
+          "eval_loss": 0.35,
+          "type": "positional"
+        }
+      ]
+    },
+    "Englund Gambit: Felbecker Gambit": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1,
+      "avg_center_control": 5,
+      "avg_mobility": 34,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 100.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Queen's Pawn Game: Modern Defense": {
+      "total_positions": 3,
+      "weakness_count": 1,
+      "weakness_rate": 33.3,
+      "mistake_types": {
+        "development": 1
+      },
+      "avg_development": 0,
+      "avg_center_control": 6,
+      "avg_mobility": 33.67,
+      "avg_king_safety": 1,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.72,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "g6",
+            "e4",
+            "Bg7"
+          ],
+          "played": "f4",
+          "best": "Nf3",
+          "eval_loss": 2.0,
+          "type": "development"
+        }
+      ]
+    },
+    "Englund Gambit: Soller Gambit": {
+      "total_positions": 2,
+      "weakness_count": 2,
+      "weakness_rate": 100.0,
+      "mistake_types": {
+        "development": 1,
+        "positional": 1
+      },
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 32,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 50.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 50.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 1.18,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "e5",
+            "dxe5",
+            "f6",
+            "exf6",
+            "Nxf6"
+          ],
+          "played": "Nc3",
+          "best": "Nf3",
+          "eval_loss": 2.0,
+          "type": "positional"
+        },
+        {
+          "line": [
+            "d4",
+            "e5",
+            "dxe5",
+            "f6"
+          ],
+          "played": "exf6",
+          "best": "Nf3",
+          "eval_loss": 0.35,
+          "type": "development"
+        }
+      ]
+    },
+    "English Defense": {
+      "total_positions": 3,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0.33,
+      "avg_center_control": 5,
+      "avg_mobility": 32.67,
+      "avg_king_safety": 1.67,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 33.3,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.02,
+      "top_weaknesses": []
+    },
+    "Indian Defense": {
+      "total_positions": 4,
+      "weakness_count": 1,
+      "weakness_rate": 25.0,
+      "mistake_types": {
+        "positional": 1
+      },
+      "avg_development": 0.75,
+      "avg_center_control": 6,
+      "avg_mobility": 31.25,
+      "avg_king_safety": 1.75,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.5,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "Nf6"
+          ],
+          "played": "Nc3",
+          "best": "Nf3",
+          "eval_loss": 2.0,
+          "type": "positional"
+        }
+      ]
+    },
+    "Indian Defense: Accelerated London System": {
+      "total_positions": 2,
+      "weakness_count": 1,
+      "weakness_rate": 50.0,
+      "mistake_types": {
+        "development": 1
+      },
+      "avg_development": 1,
+      "avg_center_control": 4,
+      "avg_mobility": 31,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 1.01,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "Nf6",
+            "Bf4",
+            "d6"
+          ],
+          "played": "e3",
+          "best": "Nc3",
+          "eval_loss": 2.0,
+          "type": "development"
+        }
+      ]
+    },
+    "Queen's Pawn Game: Chigorin Variation": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1,
+      "avg_center_control": 6,
+      "avg_mobility": 28,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Benoni Defense: Old Benoni": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 4,
+      "avg_mobility": 29,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Dutch Defense": {
+      "total_positions": 2,
+      "weakness_count": 1,
+      "weakness_rate": 50.0,
+      "mistake_types": {
+        "positional": 1
+      },
+      "avg_development": 0.5,
+      "avg_center_control": 4,
+      "avg_mobility": 30,
+      "avg_king_safety": 2,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 1.0,
+      "top_weaknesses": [
+        {
+          "line": [
+            "d4",
+            "f5"
+          ],
+          "played": "Bf4",
+          "best": "Bg5",
+          "eval_loss": 2.0,
+          "type": "positional"
+        }
+      ]
+    },
+    "Petrov's Defense: Three Knights Game": {
+      "total_positions": 15,
+      "weakness_count": 3,
+      "weakness_rate": 20.0,
+      "mistake_types": {
+        "tactical": 1,
+        "positional": 1,
+        "development": 1
+      },
+      "avg_development": 1.47,
+      "avg_center_control": 5.53,
+      "avg_mobility": 30.47,
+      "avg_king_safety": 0.07,
+      "doubled_pawn_rate": 6.7,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 6.7,
+      "hanging_piece_rate": 40.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.05,
+      "top_weaknesses": [
+        {
+          "line": [
+            "e4",
+            "e5",
+            "Nf3",
+            "Nf6",
+            "Nc3",
+            "Nc6",
+            "Bc4",
+            "Nxe4",
+            "Bxf7+",
+            "Kxf7",
+            "Nxe4"
+          ],
+          "played": "Be7",
+          "best": "d5",
+          "eval_loss": 1.29,
+          "type": "positional"
+        },
+        {
+          "line": [
+            "e4",
+            "e5",
+            "Nf3",
+            "Nf6",
+            "Nc3",
+            "Nc6",
+            "Bb5",
+            "a6",
+            "Bxc6",
+            "dxc6",
+            "Nxe5"
+          ],
+          "played": "Bd6",
+          "best": "Nxe4",
+          "eval_loss": 0.92,
+          "type": "tactical"
+        },
+        {
+          "line": [
+            "e4",
+            "e5",
+            "Nf3",
+            "Nf6",
+            "Nc3",
+            "Nc6",
+            "Bc4",
+            "Nxe4",
+            "Nxe4",
+            "d5",
+            "Bxd5",
+            "Qxd5",
+            "Nc3"
+          ],
+          "played": "Qd8",
+          "best": "Qd6",
+          "eval_loss": 0.43,
+          "type": "development"
+        }
+      ]
+    },
+    "King's Pawn Game": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0,
+      "avg_mobility": 20,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.06,
+      "top_weaknesses": []
+    },
+    "King's Knight Opening": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 29,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Petrov's Defense: Italian Variation": {
+      "total_positions": 8,
+      "weakness_count": 2,
+      "weakness_rate": 25.0,
+      "mistake_types": {
+        "tactical": 2
+      },
+      "avg_development": 1.62,
+      "avg_center_control": 5.5,
+      "avg_mobility": 31.62,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 25.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.17,
+      "top_weaknesses": [
+        {
+          "line": [
+            "e4",
+            "e5",
+            "Nf3",
+            "Nf6",
+            "Bc4",
+            "Nc6",
+            "Ng5",
+            "d5",
+            "exd5"
+          ],
+          "played": "Nxd5",
+          "best": "Na5",
+          "eval_loss": 0.85,
+          "type": "tactical"
+        },
+        {
+          "line": [
+            "e4",
+            "e5",
+            "Nf3",
+            "Nf6",
+            "Bc4"
+          ],
+          "played": "Nc6",
+          "best": "Nxe4",
+          "eval_loss": 0.55,
+          "type": "tactical"
+        }
+      ]
+    },
+    "Petrov's Defense: Stafford Gambit": {
+      "total_positions": 10,
+      "weakness_count": 1,
+      "weakness_rate": 10.0,
+      "mistake_types": {
+        "tactical": 1
+      },
+      "avg_development": 1.7,
+      "avg_center_control": 3.1,
+      "avg_mobility": 38,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 90.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 20.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": -0.11,
+      "top_weaknesses": [
+        {
+          "line": [
+            "e4",
+            "e5",
+            "Nf3",
+            "Nf6",
+            "Nxe5",
+            "Nc6",
+            "Nxc6",
+            "dxc6",
+            "Nc3",
+            "Bc5",
+            "Bc4",
+            "Ng4",
+            "O-O",
+            "Qh4",
+            "h3"
+          ],
+          "played": "Nxf2",
+          "best": "Bxf2+",
+          "eval_loss": 0.72,
+          "type": "tactical"
+        }
+      ]
+    },
+    "Petrov's Defense": {
+      "total_positions": 2,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1,
+      "avg_center_control": 3.5,
+      "avg_mobility": 27,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 50.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": -1.0,
+      "top_weaknesses": []
+    },
+    "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1,
+      "avg_center_control": 2,
+      "avg_mobility": 2,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "King's Pawn Game: Leonardis Variation": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 29,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.02,
+      "top_weaknesses": []
+    },
+    "Petrov's Defense: Modern Attack": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1,
+      "avg_center_control": 5,
+      "avg_mobility": 28,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.29,
+      "top_weaknesses": []
+    },
+    "Center Game": {
+      "total_positions": 2,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 1.5,
+      "avg_mobility": 29.5,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 50.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.03,
+      "top_weaknesses": []
+    },
+    "Bishop's Opening: Berlin Defense": {
+      "total_positions": 5,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1.2,
+      "avg_center_control": 5.2,
+      "avg_mobility": 29.4,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 20.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.05,
+      "top_weaknesses": []
+    },
+    "King's Pawn Game: Wayward Queen Attack": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 26,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.12,
+      "top_weaknesses": []
+    },
+    "Bishop's Opening": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 29,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "King's Gambit": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 30,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Vienna Game": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 29,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Vienna Game: Vienna Gambit": {
+      "total_positions": 1,
+      "weakness_count": 1,
+      "weakness_rate": 100.0,
+      "mistake_types": {
+        "tactical": 1
+      },
+      "avg_development": 1,
+      "avg_center_control": 5,
+      "avg_mobility": 28,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.82,
+      "top_weaknesses": [
+        {
+          "line": [
+            "e4",
+            "e5",
+            "Nc3",
+            "Nf6",
+            "f4"
+          ],
+          "played": "exf4",
+          "best": "d5",
+          "eval_loss": 0.82,
+          "type": "tactical"
+        }
+      ]
+    },
+    "Englund Gambit: Hartlaub-Charlick Gambit": {
+      "total_positions": 2,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0.5,
+      "avg_mobility": 33,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.01,
+      "top_weaknesses": []
+    },
+    "King's Pawn Game: Napoleon Attack": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 29,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "King's Gambit Accepted: King's Knight's Gambit": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0,
+      "avg_mobility": 29,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 100.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": -2.0,
+      "top_weaknesses": []
+    },
+    "Vienna Game: Falkbeer Variation": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 1,
+      "avg_center_control": 5,
+      "avg_mobility": 27,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Englund Gambit Declined": {
+      "total_positions": 2,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3.5,
+      "avg_mobility": 30,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": -0.99,
+      "top_weaknesses": []
+    },
+    "Englund Gambit Declined: Reversed Alekhine": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 31,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Zukertort Opening": {
+      "total_positions": 2,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 2,
+      "avg_mobility": 23.5,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": -1.0,
+      "top_weaknesses": []
+    },
+    "King's Indian Attack": {
+      "total_positions": 2,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0.5,
+      "avg_center_control": 5,
+      "avg_mobility": 28.5,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": -1.0,
+      "top_weaknesses": []
+    },
+    "Englund Gambit Declined: Reversed French": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 31,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Nimzo-Larsen Attack": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0,
+      "avg_mobility": 20,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Van't Kruijs Opening": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0,
+      "avg_mobility": 20,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "English Opening": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0,
+      "avg_mobility": 20,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Nimzo-Larsen Attack: Modern Variation": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 3,
+      "avg_mobility": 30,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 100.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Hungarian Opening": {
+      "total_positions": 1,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 0,
+      "avg_mobility": 20,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.0,
+      "top_weaknesses": []
+    },
+    "Grob Opening": {
+      "total_positions": 2,
+      "weakness_count": 0,
+      "weakness_rate": 0.0,
+      "mistake_types": {},
+      "avg_development": 0,
+      "avg_center_control": 1.5,
+      "avg_mobility": 25,
+      "avg_king_safety": 0,
+      "doubled_pawn_rate": 0.0,
+      "isolated_pawn_rate": 0.0,
+      "castled_rate": 0.0,
+      "hanging_piece_rate": 0.0,
+      "bishop_pair_rate": 100.0,
+      "avg_eval_loss": 0.14,
+      "top_weaknesses": []
+    }
+  },
+  "summary": {
+    "total_positions": 156,
+    "total_weaknesses": 25,
+    "overall_weakness_rate": 16.0,
+    "mistake_breakdown": {
+      "positional": 9,
+      "development": 7,
+      "tactical": 6,
+      "hanging_piece": 2,
+      "pawn_structure": 1
+    },
+    "worst_openings": [
+      [
+        "Englund Gambit: Soller Gambit",
+        100.0
+      ],
+      [
+        "Vienna Game: Vienna Gambit",
+        100.0
+      ],
+      [
+        "Indian Defense: Accelerated London System",
+        50.0
+      ],
+      [
+        "Dutch Defense",
+        50.0
+      ],
+      [
+        "Queen's Pawn Game: Modern Defense",
+        33.3
+      ]
+    ],
+    "best_openings": [
+      [
+        "Starting Position",
+        0.0
+      ],
+      [
+        "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit",
+        0.0
+      ],
+      [
+        "Englund Gambit",
+        0.0
+      ],
+      [
+        "Englund Gambit: Felbecker Gambit",
+        0.0
+      ],
+      [
+        "English Defense",
+        0.0
+      ]
+    ]
+  }
+}

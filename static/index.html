@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <title>Opening Trainer</title>
+    <link rel="stylesheet" href="https://esm.sh/chessground@9.1.1/assets/chessground.base.css">
+    <link rel="stylesheet" href="https://esm.sh/chessground@9.1.1/assets/chessground.brown.css">
+    <link rel="stylesheet" href="https://esm.sh/chessground@9.1.1/assets/chessground.cburnett.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="logo-title">
+                <img src="favicon-32.png" alt="" class="logo">
+                <h1>Opening Trainer</h1>
+            </div>
+            <div class="meta" id="meta"></div>
+        </header>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <div class="loading-text" id="progress">Loading...</div>
+        </div>
+
+        <div id="app" class="main" style="display: none;">
+            <div class="board-section">
+                <div class="board-with-eval">
+                    <div class="eval-bar" id="evalBar">
+                        <div class="eval-fill" id="evalFill"></div>
+                        <div class="eval-text" id="evalText">0.0</div>
+                    </div>
+                    <div class="board-wrap" id="board"></div>
+                </div>
+                <div class="controls">
+                    <button id="resetBtn">Reset</button>
+                    <button id="backBtn">← Back</button>
+                    <button id="whiteBtn" class="active">White</button>
+                    <button id="blackBtn">Black</button>
+                    <button id="refreshBtn" class="secondary">↻ Refresh</button>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="tabs">
+                    <div class="tab active" data-tab="explore">Explore</div>
+                    <div class="tab" data-tab="weaknesses">Weaknesses</div>
+                </div>
+
+                <div id="exploreTab" class="tab-content active">
+                    <div id="errorInfo" style="display: none;"></div>
+                    <div id="studyPanel" class="study-panel" style="display: none;">
+                        <div class="study-panel-header">
+                            <span class="study-panel-icon">📖</span>
+                            <span class="study-panel-source" id="studySource"></span>
+                            <button class="study-panel-close" onclick="window.closeStudyPanel()">×</button>
+                        </div>
+                        <div class="study-panel-comment" id="studyComment"></div>
+                        <div class="study-panel-actions" id="studyActions"></div>
+                    </div>
+                    <div class="opening-name" id="openingName">Starting Position</div>
+                    <div class="move-line" id="moveLine">Click a move or drag pieces to explore</div>
+
+                    <div class="stats">
+                        <div class="stat win">
+                            <div class="stat-value" id="wins">0</div>
+                            <div class="stat-label">Wins</div>
+                        </div>
+                        <div class="stat draw">
+                            <div class="stat-value" id="draws">0</div>
+                            <div class="stat-label">Draws</div>
+                        </div>
+                        <div class="stat loss">
+                            <div class="stat-value" id="losses">0</div>
+                            <div class="stat-label">Losses</div>
+                        </div>
+                    </div>
+                    <div class="winrate-bar" id="bar"></div>
+
+                    <div class="section-title">Your moves from here</div>
+                    <div class="moves-list" id="moves"></div>
+                </div>
+
+                <div id="weaknessesTab" class="tab-content">
+                    <div class="weakness-header">
+                        <div class="weakness-title">Repertoire Analysis</div>
+                        <div class="weakness-count" id="weaknessCount" style="display: none;">0 issues</div>
+                    </div>
+                    <div class="weakness-help" id="weaknessHelp">
+                        <div class="weakness-help-toggle" onclick="toggleWeaknessHelp()">
+                            <span>Understanding weakness types</span>
+                            <span class="weakness-help-arrow">▸</span>
+                        </div>
+                        <div class="weakness-help-content" style="display: none;">
+                            <div class="weakness-help-item">
+                                <span class="weakness-help-tag tac">TAC</span>
+                                <div><strong>Tactical</strong> — Missed a forcing sequence (checks, captures, threats). <em>Fix: Practice puzzles, look for forcing moves first.</em></div>
+                            </div>
+                            <div class="weakness-help-item">
+                                <span class="weakness-help-tag hang">HANG</span>
+                                <div><strong>Hanging Piece</strong> — Left a piece undefended. <em>Fix: Before moving, check what opponent attacks.</em></div>
+                            </div>
+                            <div class="weakness-help-item">
+                                <span class="weakness-help-tag dev">DEV</span>
+                                <div><strong>Development</strong> — Played a slow move instead of developing. <em>Fix: Knights & bishops out, castle early, connect rooks.</em></div>
+                            </div>
+                            <div class="weakness-help-item">
+                                <span class="weakness-help-tag pawn">PAWN</span>
+                                <div><strong>Pawn Structure</strong> — Created doubled/isolated pawns. <em>Fix: Keep pawns connected, avoid unnecessary captures.</em></div>
+                            </div>
+                            <div class="weakness-help-item">
+                                <span class="weakness-help-tag pos">POS</span>
+                                <div><strong>Positional</strong> — Strategic error, wrong plan. <em>Fix: Study classic games, learn about weak squares & piece activity.</em></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="weaknessContent">
+                        <button class="analyze-btn" id="loadWeaknesses">Load Analysis</button>
+                        <p style="font-size: 11px; color: var(--gray); margin-top: 12px; line-height: 1.5;">
+                            Loads precomputed weakness analysis. Run <code style="background: var(--bg-visual); padding: 2px 4px; border-radius: 3px;">mise run analyze</code> to regenerate.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

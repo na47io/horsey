@@ -1,0 +1,455 @@
+{
+  "weaknesses": [
+    {
+      "opening": "Queen's Pawn Game: Accelerated London System",
+      "line": [
+        "d4",
+        "d5",
+        "Bf4",
+        "Nc6",
+        "e3",
+        "Bf5",
+        "c4",
+        "e6"
+      ],
+      "played": "Qb3",
+      "best": "Nc3",
+      "eval_loss": 2.0,
+      "games": 3,
+      "is_white": true,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Queen's Pawn Game: Accelerated London System",
+      "line": [
+        "d4",
+        "d5",
+        "Bf4",
+        "Nc6",
+        "e3",
+        "Nf6"
+      ],
+      "played": "c3",
+      "best": "Nf3",
+      "eval_loss": 2.0,
+      "games": 9,
+      "is_white": true,
+      "mistake_type": "development"
+    },
+    {
+      "opening": "Queen's Pawn Game: Accelerated London System",
+      "line": [
+        "d4",
+        "d5",
+        "Bf4",
+        "Nc6",
+        "e3",
+        "f6"
+      ],
+      "played": "c3",
+      "best": "Bd3",
+      "eval_loss": 2.0,
+      "games": 4,
+      "is_white": true,
+      "mistake_type": "development"
+    },
+    {
+      "opening": "Queen's Pawn Game: Accelerated London System",
+      "line": [
+        "d4",
+        "d5",
+        "Bf4",
+        "Nf6",
+        "e3",
+        "e6"
+      ],
+      "played": "Bd3",
+      "best": "Nf3",
+      "eval_loss": 2.0,
+      "games": 8,
+      "is_white": true,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Queen's Pawn Game: Accelerated London System",
+      "line": [
+        "d4",
+        "d5",
+        "Bf4",
+        "Nf6",
+        "e3",
+        "Nc6"
+      ],
+      "played": "c3",
+      "best": "Nf3",
+      "eval_loss": 2.0,
+      "games": 7,
+      "is_white": true,
+      "mistake_type": "development"
+    },
+    {
+      "opening": "Queen's Pawn Game: Accelerated London System",
+      "line": [
+        "d4",
+        "d5",
+        "Bf4",
+        "e6",
+        "e3",
+        "Nf6"
+      ],
+      "played": "Bd3",
+      "best": "Nf3",
+      "eval_loss": 2.0,
+      "games": 3,
+      "is_white": true,
+      "mistake_type": "tactical"
+    },
+    {
+      "opening": "Horwitz Defense",
+      "line": [
+        "d4",
+        "e6"
+      ],
+      "played": "Bf4",
+      "best": "e4",
+      "eval_loss": 2.0,
+      "games": 40,
+      "is_white": true,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Queen's Pawn Game",
+      "line": [
+        "d4",
+        "c6"
+      ],
+      "played": "Bf4",
+      "best": "e4",
+      "eval_loss": 2.0,
+      "games": 15,
+      "is_white": true,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Englund Gambit: Main Line",
+      "line": [
+        "d4",
+        "e5",
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Nc3",
+        "Nb4"
+      ],
+      "played": "Rb1",
+      "best": "Nd4",
+      "eval_loss": 2.0,
+      "games": 3,
+      "is_white": true,
+      "mistake_type": "hanging_piece"
+    },
+    {
+      "opening": "Englund Gambit: Soller Gambit",
+      "line": [
+        "d4",
+        "e5",
+        "dxe5",
+        "f6",
+        "exf6",
+        "Nxf6"
+      ],
+      "played": "Nc3",
+      "best": "Nf3",
+      "eval_loss": 2.0,
+      "games": 3,
+      "is_white": true,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Indian Defense",
+      "line": [
+        "d4",
+        "Nf6"
+      ],
+      "played": "Nc3",
+      "best": "Nf3",
+      "eval_loss": 2.0,
+      "games": 20,
+      "is_white": true,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Queen's Pawn Game: Modern Defense",
+      "line": [
+        "d4",
+        "g6",
+        "e4",
+        "Bg7"
+      ],
+      "played": "f4",
+      "best": "Nf3",
+      "eval_loss": 2.0,
+      "games": 10,
+      "is_white": true,
+      "mistake_type": "development"
+    },
+    {
+      "opening": "Indian Defense: Accelerated London System",
+      "line": [
+        "d4",
+        "Nf6",
+        "Bf4",
+        "d6"
+      ],
+      "played": "e3",
+      "best": "Nc3",
+      "eval_loss": 2.0,
+      "games": 3,
+      "is_white": true,
+      "mistake_type": "development"
+    },
+    {
+      "opening": "Dutch Defense",
+      "line": [
+        "d4",
+        "f5"
+      ],
+      "played": "Bf4",
+      "best": "Bg5",
+      "eval_loss": 2.0,
+      "games": 5,
+      "is_white": true,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Petrov's Defense: Three Knights Game",
+      "line": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Bc4",
+        "Nxe4",
+        "Bxf7+",
+        "Kxf7",
+        "Nxe4"
+      ],
+      "played": "Be7",
+      "best": "d5",
+      "eval_loss": 1.29,
+      "games": 3,
+      "is_white": false,
+      "mistake_type": "positional"
+    },
+    {
+      "opening": "Petrov's Defense: Three Knights Game",
+      "line": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Bb5",
+        "a6",
+        "Bxc6",
+        "dxc6",
+        "Nxe5"
+      ],
+      "played": "Bd6",
+      "best": "Nxe4",
+      "eval_loss": 0.92,
+      "games": 3,
+      "is_white": false,
+      "mistake_type": "tactical"
+    },
+    {
+      "opening": "Petrov's Defense: Italian Variation",
+      "line": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Bc4",
+        "Nc6",
+        "Ng5",
+        "d5",
+        "exd5"
+      ],
+      "played": "Nxd5",
+      "best": "Na5",
+      "eval_loss": 0.85,
+      "games": 6,
+      "is_white": false,
+      "mistake_type": "tactical"
+    },
+    {
+      "opening": "Vienna Game: Vienna Gambit",
+      "line": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4"
+      ],
+      "played": "exf4",
+      "best": "d5",
+      "eval_loss": 0.82,
+      "games": 3,
+      "is_white": false,
+      "mistake_type": "tactical"
+    },
+    {
+      "opening": "Petrov's Defense: Stafford Gambit",
+      "line": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "Nc6",
+        "Nxc6",
+        "dxc6",
+        "Nc3",
+        "Bc5",
+        "Bc4",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3"
+      ],
+      "played": "Nxf2",
+      "best": "Bxf2+",
+      "eval_loss": 0.72,
+      "games": 3,
+      "is_white": false,
+      "mistake_type": "tactical"
+    },
+    {
+      "opening": "Englund Gambit: Main Line",
+      "line": [
+        "d4",
+        "e5",
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Nc3",
+        "Bb4",
+        "Rb1",
+        "Qa3"
+      ],
+      "played": "Nb5",
+      "best": "Nd5",
+      "eval_loss": 0.71,
+      "games": 3,
+      "is_white": true,
+      "mistake_type": "pawn_structure"
+    },
+    {
+      "opening": "Queen's Pawn Game: Accelerated London System",
+      "line": [
+        "d4",
+        "d5",
+        "Bf4",
+        "Nc6",
+        "e3",
+        "f6",
+        "c3",
+        "e5"
+      ],
+      "played": "dxe5",
+      "best": "Bg3",
+      "eval_loss": 0.55,
+      "games": 3,
+      "is_white": true,
+      "mistake_type": "hanging_piece"
+    },
+    {
+      "opening": "Petrov's Defense: Italian Variation",
+      "line": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Bc4"
+      ],
+      "played": "Nc6",
+      "best": "Nxe4",
+      "eval_loss": 0.55,
+      "games": 33,
+      "is_white": false,
+      "mistake_type": "tactical"
+    },
+    {
+      "opening": "Petrov's Defense: Three Knights Game",
+      "line": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Bc4",
+        "Nxe4",
+        "Nxe4",
+        "d5",
+        "Bxd5",
+        "Qxd5",
+        "Nc3"
+      ],
+      "played": "Qd8",
+      "best": "Qd6",
+      "eval_loss": 0.43,
+      "games": 3,
+      "is_white": false,
+      "mistake_type": "development"
+    },
+    {
+      "opening": "Englund Gambit: Soller Gambit",
+      "line": [
+        "d4",
+        "e5",
+        "dxe5",
+        "f6"
+      ],
+      "played": "exf6",
+      "best": "Nf3",
+      "eval_loss": 0.35,
+      "games": 4,
+      "is_white": true,
+      "mistake_type": "development"
+    },
+    {
+      "opening": "Englund Gambit: Main Line",
+      "line": [
+        "d4",
+        "e5",
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bg5"
+      ],
+      "played": "Qb4+",
+      "best": "Qe6",
+      "eval_loss": 0.35,
+      "games": 4,
+      "is_white": false,
+      "mistake_type": "positional"
+    }
+  ],
+  "analyzed": 156,
+  "depth": 15
+}

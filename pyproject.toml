@@ -1,0 +1,15 @@
+[project]
+name = "chess-openings"
+version = "0.1.0"
+description = "Personal chess opening trainer"
+requires-python = ">=3.11"
+dependencies = [
+    "chess>=1.10.0",
+    "requests>=2.31.0",
+    "tqdm>=4.66.0",
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+]
+
+[tool.uv]
+dev-dependencies = []
